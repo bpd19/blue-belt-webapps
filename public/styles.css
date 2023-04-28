@@ -1,0 +1,43 @@
+body {
+
+    background-color: #fafafa;
+
+
+}
+
+header {
+    background-color: yellowgreen;
+}
+p{
+    color: blueviolet;
+    background-color: grey;
+    margin: 50px 30px 20px 100px;
+    border: 10px solid black;
+    padding: 20px;
+}
+pre{
+    background-color: green;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 10px black;
+}
+h1, h2, h3{
+    font-family: sans-serif;
+    
+    
+}
+pre, code{
+    font-family: 'Courier New', Courier, monospace;
+}
+p a{
+    color: green;
+}
+h2 code{
+    font-size: 16pt;
+}
+article p a{
+    color:  green;
+}
+article:first-child p a{
+    color:  orange;
+}
